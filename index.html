@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="epic_joke.css">
     <title>Joke API</title>
 </head>
-
 <body>
-    <h1>Joke Of The Day</h1>
-    <h2>Generate A New Random Joke By Category</h2>
-    <button>Programming</button>
-    <button>Miscellaneous</button>
-    <button>Pun</button>
-    <button>Spooky</button>
-    <button>Christmas</button>
-    <script src="joke.js"></script>
-</body>
 
+    <h1 id="title">Joke Of The Day</h1>
+    <p id="joke"></p>
+
+    <h2>Generate A New Random Joke By Category</h2>
+
+    <div class="category">
+    <button onclick="getJoke('Programming')">Programming</button>
+    <button onclick="getJoke('Misc')">Misc</button>
+    <button onclick="getJoke('Pun')">Pun</button>
+    <button onclick="getJoke('Spooky')">Spooky</button>
+    <button onclick="getJoke('Christmas')">Christmas</button>
+</div> 
+
+    <script src="joke.js"></script>
+
+</body>
 </html>

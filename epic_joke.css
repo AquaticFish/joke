@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.category{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    background-color: rgb(249, 211, 108);
+    padding: 0.5rem;
+}
+
